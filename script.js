@@ -4,7 +4,7 @@ var no2 = parseInt(document.getElementById("n2").value);
 
 
 function getSum(){
-	document.setElementById("sum").value = String(no1 + no2);
+	document.getElementById("sum").value = String(no1 + no2);
 }
 
 
